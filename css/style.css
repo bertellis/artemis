@@ -64,3 +64,164 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/*CSS for flexbox testing*/
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+h1,h2,h3 {
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+#contact-boxes-container {
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    gap: 20px;
+}
+.contact-box {
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 250px;
+    height: 250px;
+}
+.address-box {
+    align-self: flex-end;
+}
+.last {
+    order: 1;
+}
+.my-text {
+    color: #fff;
+}
+#nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 110px;
+    background-color: #4a4a4f;
+    gap: 30px;
+}
+.mountain-nav {
+    height: 100px;
+    color: #fff;
+}
+.forest-nav {
+    order: 1;
+    color: #fff;
+}
+.river-nav {
+    color: #fff;
+}
+div a {
+    text-decoration: none;
+    color: #fff;
+    height: fit-content;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 0;
+}
+div a:hover {
+    text-decoration: underline;
+}
+/*extra css*/
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.px-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.justify-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.z-50 {
+    z-index: 50;
+}
+.relative {
+    position: relative;
+}
+div img {
+    width: 200px;
+    height: 100px;
+}
+.font-bold {
+    font-weight: unset;
+    font-variation-settings: 'wght' 700;
+}
+.text-white\/50 {
+    color: rgb(255 255 255 / 0.5);
+}
+
+.font-bold {
+    font-weight: 700;
+}
+.text-\[9px\] {
+    font-size: 9px;
+}
+.font-sans {
+    font-family: Open Sans, sans-serif;
+}
+.gap-x-18 {
+    -webkit-column-gap: 18px;
+    -moz-column-gap: 18px;
+    column-gap: 18px;
+}
+.list-none {
+    list-style-type: none;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
